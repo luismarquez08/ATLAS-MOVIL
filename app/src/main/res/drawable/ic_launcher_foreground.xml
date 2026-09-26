@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Orbital Ring -->
+    <path
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8"
+        android:pathData="M 54,26 A 28,28 0 1,1 53.9,26 Z" />
+
+    <!-- Orbital Latitude Ellipse 1 (Angled Globe / Atlas Ring) -->
+    <path
+        android:strokeWidth="1.8"
+        android:strokeColor="#0EA5E9"
+        android:pathData="M 54,34 A 20,20 0 1,1 53.9,34 Z" />
+
+    <!-- Central AI Nucleus Glow -->
+    <path
+        android:pathData="M 54,44 A 10,10 0 1,1 53.9,44 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="44"
+                android:endX="64"
+                android:endY="64"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#00F2FE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Voice / Frequency Core Waves -->
+    <path
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF"
+        android:pathData="M 46,50 L 46,58 M 50,47 L 50,61 M 54,44 L 54,64 M 58,47 L 58,61 M 62,50 L 62,58" />
+
+    <!-- Four Corner Cyber Nodes / Constellation markers -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 54,21 L 56,26 L 52,26 Z M 54,87 L 56,82 L 52,82 Z M 21,54 L 26,56 L 26,52 Z M 87,54 L 82,56 L 82,52 Z" />
+</vector>

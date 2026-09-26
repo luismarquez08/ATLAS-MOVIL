@@ -1,0 +1,6 @@
+{
+  "name": "Atlas Asistente",
+  "description": "Asistente virtual de voz inteligente con IA, noticias en tiempo real, clima, YouTube, Spotify y comandos por voz para Luis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
